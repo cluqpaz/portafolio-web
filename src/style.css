@@ -4,7 +4,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-
 .font-work-sans-light {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
@@ -44,7 +43,6 @@
   font-weight: 700;
   font-style: normal;
 }
-
 
 @custom-variant dark (&:is(.dark *));
 
