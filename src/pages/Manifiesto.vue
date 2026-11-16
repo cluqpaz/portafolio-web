@@ -1,0 +1,8 @@
+<script lang="ts">
+
+</script>
+
+<template>
+    <h1>Manifiesto</h1>
+    
+</template>
