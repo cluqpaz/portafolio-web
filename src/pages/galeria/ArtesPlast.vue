@@ -7,7 +7,7 @@
         
         <div class="w-[80%] h-80 p-4 flex border border-black shadow-2xl">
             <img 
-            src="/public/imagenes/signal-2026-11-18-16-58-28-205_002.jpg"
+            src="/public/imagenes/vaga general bn.jpg"
             class="h-70 w-105"
             />
             <div class="ml-9 flex flex-col justify-center">
@@ -18,7 +18,7 @@
 
         <div class="w-[80%] h-80 p-4 flex border border-black shadow-2xl">
             <img 
-            src="/public/imagenes/signal-2026-11-18-16-58-28-205_002.jpg"
+            src="/public/imagenes/vaga general bn.jpg"
             class="h-70 w-105"
             />
             <div class="ml-9 flex flex-col justify-center">
