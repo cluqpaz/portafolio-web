@@ -5,8 +5,7 @@ import { Button } from '@/components/ui/button';
 <template>
     <h1>Contacto</h1>
     <div class="flex gap-2 mt-5">
-        
-        <a href="https://www.instagram.com/laestamparoja/" targer="_blank">
+        <a href="https://www.instagram.com/laestamparoja/" targer="__blank">
           <Button
             class=" hover:bg-red-600 active:bg-red-400 flex items-center"
             >

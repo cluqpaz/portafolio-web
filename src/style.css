@@ -32,8 +32,8 @@
   font-style: normal;
 }
 
-.font-bebas-neue {
-  font-family: "Bebas Neue", sans-serif;
+.font-anton {
+  font-family: "Anton", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -86,6 +86,8 @@
   --radius-2xl: calc(var(--radius) * 1.8);
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
+  /* mis colores */
+  --color-rojo-estampa:#ff0302;
 }
 
 :root {

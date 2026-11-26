@@ -10,37 +10,38 @@ import {
 </script>
 
 <template>
-   <div class="w-screen h-20 bg-stone-900 p-4 flex items-center justify-between">
+   <div class="w-full h-20 bg-stone-900 p-4 flex items-center justify-between">
         <div class="flex items-center">
           <img
           class="h-18 mr-2 transition-all"
-          src="/public/logos/logo estampa roja rojo.png"
+          src="/logos/logo estampa roja rojo.png"
           /> 
-          <h1 class="text-2xl md:text-4xl text-red-500 font-bebas-neue leading-6">
+          <h1 class="hidden md:block text-2xl md:text-4xl text-rojo-estampa font-anton leading-6">
             LA ESTAMPA ROJA
           </h1>
         </div>
-        <div class="flex gap-4 text-red-500 font-work-sans-regular">
-            <RouterLink to="/" active-class="font-bold">Inicio</RouterLink>
+        <div class="flex gap-4 text-rojo-estampa font-work-sans-regular">
+            <RouterLink to="/" class="p-1 hover:font-bold" active-class="bg-rojo-estampa text-black font-bold">Inicio</RouterLink>
 
             <DropdownMenu >
-              <DropdownMenuTrigger>Galería</DropdownMenuTrigger>
-              <DropdownMenuContent class="bg-stone-900 text-red-500 rounded-none">
-                <RouterLink to="/galeria/artesplasticas" active-class="font-bold">
+              <DropdownMenuTrigger class="p-1 hover:font-bold" active-class="bg-rojo-estampa text-black font-bold">Galería</DropdownMenuTrigger>
+              <DropdownMenuContent class="bg-stone-900 text-rojo-estampa rounded-none">
+                <!-- METER CLASES CONDICIONALES DE LA CLASE VUE-WEB 8, CREAR VARIABLE PARA PAGINA ACTUAL? -->
+                <RouterLink to="/galeria/artesplasticas"  active-class="font-bold bg-rojo-estampa">
                   <DropdownMenuItem>Artes Plásticas</DropdownMenuItem>
                 </RouterLink>
                 <RouterLink to="/galeria/musica" active-class="font-bold">
-                  <DropdownMenuItem>Música</DropdownMenuItem>
+                  <DropdownMenuItem class="focus:bg-stone-900 focus:text-rojo-estampa focus:font-bold">Música</DropdownMenuItem>
                 </RouterLink>
                 <RouterLink to="/galeria/literatura" active-class="font-bold">
-                  <DropdownMenuItem>Literatura</DropdownMenuItem>
+                  <DropdownMenuItem></DropdownMenuItem>
                 </RouterLink>
               </DropdownMenuContent>
             </DropdownMenu>
 
-            <RouterLink to="/manifiesto" active-class="font-bold">Manifiesto</RouterLink>
+            <RouterLink to="/manifiesto" class="p-1 hover:font-bold" active-class="bg-rojo-estampa text-black font-bold">Manifiesto</RouterLink>
 
-            <RouterLink to="/Contacto" active-class="font-bold">Contacto</RouterLink> 
+            <RouterLink to="/Contacto" class="p-1 hover:font-bold" active-class="bg-rojo-estampa text-black font-bold">Contacto</RouterLink> 
         </div>
    </div> 
    
